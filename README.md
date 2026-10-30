@@ -37,3 +37,4 @@ npm run build
    - من لوحة تحكم المشروع في Vercel ادخل إلى **Settings -> Domains**.
    - اكتب `ibrahim.ly` و `www.ibrahim.ly` واضغط **Add**.
    - ضع سجلات الـ DNS (`A Record` و `CNAME`) التي يعطيها لك Vercel في لوحة تحكم الدومين الخاص بك، وسيتم تفعيل الموقع مع شهادة `HTTPS/SSL` مجاناً تلقائياً.
+# ibrahim-portfolio
