@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- MANDATORY: Declare support for both light and dark themes -->
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      try {
+        document.querySelector('meta[name="color-scheme"]').content =
+          localStorage.getItem('color-scheme') ?? 'light dark';
+      } catch (e) {}
+    </script>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <title>Ibrahim Banour | إبراهيم بالنور — Full Stack Developer</title>
+    <link rel="canonical" href="https://ibrahimmb.me/" />
+    <meta
+      name="description"
+      content="Ibrahim Banour (إبراهيم بالنور) — Full Stack Developer specializing in the Laravel ecosystem, Filament v3, RESTful APIs, Real-time Web Apps, and React JS. Based in Tripoli, Libya."
+    />
+    <meta property="og:title" content="Ibrahim Banour | إبراهيم بالنور — Full Stack Developer" />
+    <meta
+      property="og:description"
+      content="Building production-grade admin panels, RESTful APIs, real-time web applications, and modern React interfaces."
+    />
+    <meta property="og:url" content="https://ibrahimmb.me/" />
+    <meta property="og:image" content="https://ibrahimmb.me/og-image.svg" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://ibrahimmb.me/" />
+    <meta name="twitter:image" content="https://ibrahimmb.me/og-image.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
